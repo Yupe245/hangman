@@ -1,0 +1,30 @@
+{
+  "name": "hangman",
+  "version": "0.0.1",
+  "description": "Basic Hangman App",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yupe245/hangman.git"
+  },
+  "keywords": [
+    "hangman",
+    "mirijs"
+  ],
+  "author": "MiriJS",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Yupe245/hangman/issues"
+  },
+  "homepage": "https://github.com/Yupe245/hangman#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}
